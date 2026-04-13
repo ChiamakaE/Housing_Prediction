@@ -20,23 +20,35 @@
 
 
 <h1>Research Question</h1>
-What is the relationship between the number of bedrooms and the price of a house?
-Does the size of the living area (sqft_living) impact the price of a house?
-Are there any significant correlations between variables like condition, grade, and the price of houses?
-How do other variables like waterfront, view, and location (zipcode) affect house prices?
+<li>What is the relationship between the number of bedrooms and the price of a house?</li>
+<li>Does the size of the living area (sqft_living) impact the price of a house?</li>
+<li>Are there any significant correlations between variables like condition, grade, and the price of houses?</li>
+<li>How do other variables like waterfront, view, and location (zipcode) affect house prices?</li>
 
 
-Tests of Normality
-The p-value (Sig.) is less than your chosen alpha level -0.05,p-values for all variables (all .000), it appears that the data significantly deviates from a normal distribution for each variable.
-all the variables in your table have very low p-values, suggesting that they do not follow a normal distribution. 
+<h1>Tests of Normality</h1>
+<li>The p-value (Sig.) is less than your chosen alpha level -0.05,p-values for all variables (all .000), it appears that the data significantly deviates from a normal distribution for each variable.</li>
+
+<li>All the variables in your table have very low p-values, suggesting that they do not follow a normal distribution. </li>
 <img width="584" height="1015" alt="image" src="https://github.com/user-attachments/assets/a4c40b51-0b1a-4ab1-a1de-ef8283cd2a5c" />
 
 
-Descriptive Statistics for numerical Variables
-Price has a very high positive kurtosis of 34.522, indicating heavy-tailed data with many extreme values.
-Other variables like sqft_living, sqft_lot, sqft_above, etc., also have positive kurtosis values, suggesting heavy-tailed distributions.
+<h1>Descriptive Statistics for numerical Variables</h1>
+<li>Price has a very high positive kurtosis of 34.522, indicating heavy-tailed data with many extreme values.</li>
+<li>Other variables like sqft_living, sqft_lot, sqft_above, etc., also have positive kurtosis values, suggesting heavy-tailed distributions.</li>
 <img width="2022" height="126" alt="image" src="https://github.com/user-attachments/assets/1680eac7-700f-4601-8741-62e38b3fda20" />
 
+
+<li>
+Significance levels (Sig. or p-values) indicate whether the correlation is statistically significant. In the table, there are two levels of significance: 0.01 (very significant) and 0.05 (significant).
+A smaller p-value (e.g., 0.000) indicates a more significant correlation, while a larger p-value (e.g., 0.05) suggests a less significant or non-significant relationship.</li>
+<img width="1593" height="1113" alt="image" src="https://github.com/user-attachments/assets/27ebaae2-be92-4253-aed2-4206d88eebb0" />
+
+
+For example-
+The Pearson correlation coefficient between the number of bedrooms and house prices was 0.308. Additionally, the two-tailed significance (Sig.) value associated with this correlation was 0.000, which is statistically significant.
+The positive correlation coefficient of 0.308 suggests a moderate positive relationship between the number of bedrooms in a house and its price. In other words, as the number of bedrooms in a house increases, the house price tends to increase as well. This finding indicates that larger houses with more bedrooms tend to command higher prices in the housing market.
+<img width="8797" height="543" alt="image" src="https://github.com/user-attachments/assets/5effe619-7198-4288-b7ce-0167a88f9fc3" />
 
 Multiple linear regression analysis is done with the dependent variable "price" and multiple independent variables. To determine whether to accept or reject the null hypothesis for each independent variable, focus on the "Sig." (Significance) column in the Coefficients table.
 
