@@ -36,7 +36,7 @@
 <h1>Descriptive Statistics for numerical Variables</h1>
 <li>Price has a very high positive kurtosis of 34.522, indicating heavy-tailed data with many extreme values.</li>
 <li>Other variables like sqft_living, sqft_lot, sqft_above, etc., also have positive kurtosis values, suggesting heavy-tailed distributions.</li>
-<img width="2022" height="126" alt="image" src="https://github.com/user-attachments/assets/1680eac7-700f-4601-8741-62e38b3fda20" />
+<img width="1353" height="706" alt="image" src="https://github.com/user-attachments/assets/e0593616-aaf4-4de2-86f5-30e13f36867f" />
 
 
 <li>
@@ -45,16 +45,17 @@ A smaller p-value (e.g., 0.000) indicates a more significant correlation, while 
 <img width="1593" height="1113" alt="image" src="https://github.com/user-attachments/assets/27ebaae2-be92-4253-aed2-4206d88eebb0" />
 
 
-For example-
+<li>For example</li>
 The Pearson correlation coefficient between the number of bedrooms and house prices was 0.308. Additionally, the two-tailed significance (Sig.) value associated with this correlation was 0.000, which is statistically significant.
 The positive correlation coefficient of 0.308 suggests a moderate positive relationship between the number of bedrooms in a house and its price. In other words, as the number of bedrooms in a house increases, the house price tends to increase as well. This finding indicates that larger houses with more bedrooms tend to command higher prices in the housing market.
 <img width="8797" height="543" alt="image" src="https://github.com/user-attachments/assets/5effe619-7198-4288-b7ce-0167a88f9fc3" />
 
-Multiple linear regression analysis is done with the dependent variable "price" and multiple independent variables. To determine whether to accept or reject the null hypothesis for each independent variable, focus on the "Sig." (Significance) column in the Coefficients table.
+<li>Multiple linear regression analysis is done with the dependent variable "price" and multiple independent variables. To determine whether to accept or reject the null hypothesis for each independent variable, focus on the "Sig." (Significance) column in the Coefficients table.</li>
 
-For example
-Bathrooms:The coefficient for "bathrooms" is 41276.711 with a very low p-value of .000. This indicates that the number of bathrooms has a statistically significant and positive effect on the price. In other words, as the number of bathrooms increases, the price tends to increase. Therefore, you should reject the null hypothesis for "bathrooms."
- sqft_lot: The coefficient for "sqft_lot" is 0.125 with a p-value of .009. This indicates that the square footage of the lot has a statistically significant but relatively weak positive effect on the price. Therefore, you should reject the null hypothesis for "sqft_lot." 
+<h3>For example</h3>
+<li>Bathrooms:</li>The coefficient for "bathrooms" is 41276.711 with a very low p-value of .000. This indicates that the number of bathrooms has a statistically significant and positive effect on the price. In other words, as the number of bathrooms increases, the price tends to increase. Therefore, you should reject the null hypothesis for "bathrooms."
+ 
+<li> sqft_lot:</li> The coefficient for "sqft_lot" is 0.125 with a p-value of .009. This indicates that the square footage of the lot has a statistically significant but relatively weak positive effect on the price. Therefore, you should reject the null hypothesis for "sqft_lot." 
 <img width="5280" height="261" alt="image" src="https://github.com/user-attachments/assets/a254efd6-1c06-4479-aafb-dc2aff233716" />
 
 
