@@ -61,22 +61,6 @@ The positive correlation coefficient of 0.308 suggests a moderate positive relat
 
 
 
-
-<img width="1802" height="981" alt="image" src="https://github.com/user-attachments/assets/2afa0283-cee9-4aac-aca0-3d6afe8a70b1" />
-
-- R: The correlation coefficient (R) measures the strength and direction of the linear relationship between the dependent variable (price) and the independent variables collectively. In this model, R is 0.837, which suggests a strong positive linear relationship between the independent variables and the dependent variable.
-
-- R Square: R Square, or the coefficient of determination, represents the proportion of the variance in the dependent variable (price) that is explained by the independent variables in the model. In this case, R Square is 0.701, which means that approximately 70.1% of the variance in the price can be explained by the independent variables in the model.
-
-- Adjusted R Square: Adjusted R Square is similar to R Square but adjusted for the number of predictors in the model. It provides a more conservative estimate of the variance explained. In this model, it's also 0.701, which suggests that the inclusion of these independent variables explains a substantial amount of the variation in price.
-
-- Std. Error of the Estimate: This value (200880.07723) is a measure of the variability of the actual values of the dependent variable (price) around the predicted values. Lower values indicate better model fit.
-
-- Change Statistics: This section reports the change in R Square, F-statistic, and other statistics when the model is tested. The F Change statistic tests whether the addition of independent variables significantly improves the model. In this case, the F Change statistic is 2815.816, and the associated p-value is very close to zero, indicating that adding the independent variables to the model significantly improved its fit.
-
-- Durbin-Watson: The Durbin-Watson statistic (1.266) is used to test for the presence of autocorrelation in the residuals (errors) of the model. It ranges from 0 to 4, with values around 2 indicating no autocorrelation. In this case, the value is below 2, suggesting a potential issue with autocorrelation.
-
-
 - R: The correlation coefficient (R) measures the strength and direction of the linear relationship between the dependent variable (price) and the independent variables collectively. In this model, R is 0.837, which suggests a strong positive linear relationship between the independent variables and the dependent variable.
 
 - R Square: R Square, or the coefficient of determination, represents the proportion of the variance in the dependent variable (price) that is explained by the independent variables in the model. In this case, R Square is 0.701, which means that approximately 70.1% of the variance in the price can be explained by the independent variables in the model.
@@ -91,7 +75,5 @@ The positive correlation coefficient of 0.308 suggests a moderate positive relat
 
 Overall, this Model Summary table provides essential information about the quality of your regression model. An R Square of 0.701 indicates that the model explains a substantial portion of the variance in the dependent variable. The low p-value associated with the F Change statistic indicates that the model is statistically significant. However, you should also consider the issue of autocorrelation indicated by the Durbin-Watson statistic, as this can impact the validity of the model's assumptions.
 <img width="13506" height="1100" alt="image" src="https://github.com/user-attachments/assets/069e0ff0-21c8-4acc-af26-dee5e94d61f8" />
-
-Overall, this Model Summary table provides essential information about the quality of your regression model. An R Square of 0.701 indicates that the model explains a substantial portion of the variance in the dependent variable. The low p-value associated with the F Change statistic indicates that the model is statistically significant. However, you should also consider the issue of autocorrelation indicated by the Durbin-Watson statistic, as this can impact the validity of the model's assumptions.
 
 
