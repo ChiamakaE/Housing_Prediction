@@ -1,25 +1,25 @@
-NULL HYPOTHESIS
-There is no statistically significant relationship between the bedrooms and the price of the houses.
-There is no statistically significant relationship between the bathrooms and the price of the houses.
-There is no statistically significant relationship between the sqft_living ( The square footage of the interior housing space that is above ground level) and the price of the houses.
-There is no statistically significant relationship between the sqft_lot (THe square footage of the interior housing space that is below ground level) and the price of the houses.
-There is no statistically significant relationship between the floors and the price of the houses.
-There is no statistically significant relationship between the waterfront and the price of the houses.
-There is no statistically significant relationship between the view and the price of the houses.
-There is no statistically significant relationship between the condition and the price of the houses.
-There is no statistically significant relationship between the grade and the price of the houses.
-There is no statistically significant relationship between the sqft_above and the price of the houses.
-There is no statistically significant relationship between the sqft_basement and the price of the houses.
-There is no statistically significant relationship between the yr_built and the price of the houses.
-There is no statistically significant relationship between the yr_renovated and the price of the houses.
-There is no statistically significant relationship between the zipcode and the price of the houses.
-There is no statistically significant relationship between the lat and the price of the houses.
-There is no statistically significant relationship between the long and the price of the houses.
-There is no statistically significant relationship between the sqft_living15(The square footage of interior housing living space for the nearest 15 neighbors) and the price of the houses.
-There is no statistically significant relationship between the sqft_lot15(The square footage of the land lots of the nearest 15 neighbors) and the price of the houses.
+<h1>NULL HYPOTHESIS</h1>
+<li> There is no statistically significant relationship between the bedrooms and the price of the houses.</li>
+<li>There is no statistically significant relationship between the bathrooms and the price of the houses.</li>
+<li>There is no statistically significant relationship between the sqft_living ( The square footage of the interior housing space that is above ground level) and the price of the houses.</li>
+<li>There is no statistically significant relationship between the sqft_lot (THe square footage of the interior housing space that is below ground level) and the price of the houses.</li>
+<li>There is no statistically significant relationship between the floors and the price of the houses.</li>
+<li>There is no statistically significant relationship between the waterfront and the price of the houses.</li>
+<li>There is no statistically significant relationship between the view and the price of the houses.</li>
+<li>There is no statistically significant relationship between the condition and the price of the houses.</li>
+<li>There is no statistically significant relationship between the grade and the price of the houses.</li>
+<li>There is no statistically significant relationship between the sqft_above and the price of the houses.</li>
+<li>There is no statistically significant relationship between the sqft_basement and the price of the houses.</li>
+<li>There is no statistically significant relationship between the yr_built and the price of the houses.</li>
+<li>There is no statistically significant relationship between the yr_renovated and the price of the houses.</li>
+<li>There is no statistically significant relationship between the zipcode and the price of the houses.</li>
+<li>There is no statistically significant relationship between the lat and the price of the houses.</li>
+<li>There is no statistically significant relationship between the long and the price of the houses.</li>
+<li>There is no statistically significant relationship between the sqft_living15(The square footage of interior housing living space for the nearest 15 neighbors) and the price of the houses.</li>
+<li>There is no statistically significant relationship between the sqft_lot15(The square footage of the land lots of the nearest 15 neighbors) and the price of the houses.</li>
 
 
-Research Question
+<h1>Research Question</h1>
 What is the relationship between the number of bedrooms and the price of a house?
 Does the size of the living area (sqft_living) impact the price of a house?
 Are there any significant correlations between variables like condition, grade, and the price of houses?
